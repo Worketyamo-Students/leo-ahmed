@@ -1,12 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scalebrnb=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Document</title>
+    <title>LOGIN-LAYOUT</title>
 </head>
 <body>
-    
+    <div class="conteneur">
+        <div class="conteneur_image">
+            <img src="./assets/images/imagedefond.svg" alt="connecter-vous">
+        </div>
+        <div class="conteneur_form">
+            <h1>Connexion a Blue Ocean</h1>
+            <form action="formulaire">
+                <!-- ceci est notre conteneur qui portera l'input email et le text email -->
+                <label class="conteneur_form_email">
+                    <div class="conteneur_form_text">
+                        <input type="email" placeholder="abc@example.com">
+                    </div>
+                </label>
+                <!-- ceci est notre conteneur qui portera l'input mot de passe et le text mot de passe -->
+                <label class="conteneur_form_password">
+                    <div class="conteneur_form_text">
+                        <input type="password" placeholder="******">
+                    </div>
+                </label>
+                <!-- ceci est le lien juste avant le boutton -->
+                <a href="#">Mot de passe oublié? </a>
+            </form>
+            <!-- cici est le boutton connexion -->
+            <input type="button" value="">
+            <!-- ici c'est la partie pour le text"ou avec" encadrer de par et d'autre par deux barres-->
+            <div class="conteneur_form_line">
+                <div></div>
+                <span></span>
+                <div></div>
+            </div>
+            <!-- ici c'est la partie qui contient les icones en pied de page -->
+            <div class="conteneur_form_icones">
+                <div class="logo"><img src="./assets/images/google.svg" alt="icone google"></div>
+                <div class="logo"><img src="./assets/images/facebook.svg" alt="icone facebook"></div>
+                <div class="logo"><img src="./assets/images/github.svg" alt="icone github"></div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

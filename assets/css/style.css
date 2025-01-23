@@ -1,0 +1,25 @@
+/* initialisation de notre projet */
+*{
+    margin: 0;
+    padding:0;
+    border: 0;
+}
+/* definissons toutes les variables a utiliser */
+:root{
+    --text-color:#19192C;
+    --border-input-color:#9E9E9FFA;
+    --border-icone: #979797;
+    --link-color:#8EA7E9;
+    --font-page:10px;
+    --boutton-color: #7286D3;
+    --connexion-color: #FFF2F2;
+    ;
+}
+html{
+    font-size: var(--font-page);
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+}
