@@ -18,7 +18,6 @@
     --text-font:"Poppins", serif;
     --link-color:#8EA7E9;
     --back-ground-icons: #FFF2F28A;
-    
 }
 html{
     font-size: var(--font-page);
@@ -29,7 +28,7 @@ body{
     /* background-color: red; */
 }
 .conteneur{
-    width: 100%;
+    width: 100vw;
     height: 100%;
     display: flex;
     padding: 8.1rem;
@@ -54,15 +53,17 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 58rem;
+    width: 56rem;
     gap: 7.1rem;
 }
 form{
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 2.1rem;
 }
 .conteneur_form_email,.conteneur_form_password{
+    width: 100%;
     font-family: var(--text-font);
     font-size: 2rem;
     font-weight: 400;
@@ -74,7 +75,7 @@ form{
 }
 .conteneur_form_text{
     display: flex;
-    width: 56rem;
+    width: 100%;
     height: 7.4rem;
     border-radius: 2rem;
     border: .1rem solid var(--border-input-color);
@@ -94,10 +95,10 @@ a{
     font: 500 2rem var(--text-font);
     justify-content: end;
     display: flex;
-    width: 56rem ;
+    width: 100% ;
 }
 .connexion{
-    width: 56rem;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -116,7 +117,8 @@ a{
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 2.6rem;
+    justify-content: center;
+    gap: 1.6rem;
 }
 .conteneur_form_line>div{
     background-color: var(--text-color);

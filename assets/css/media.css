@@ -1,0 +1,66 @@
+
+.conteneur{
+    width: 100%;
+    padding: 0;
+}
+.conteneur_image{
+    display: none;
+}
+.conteneur_form{
+    width: 38rem;
+    padding: 5rem;
+}
+h1{
+    width: 28.7rem;
+    height: 7.5rem;
+    font-size: 3.2rem;
+    font-weight: 600;
+    text-align: left;
+}
+.conteneur_form_bande{
+    width: 100%;
+}
+.conteneur_form_text{
+    padding: 0;
+    height: 5rem;
+    border-radius: 1rem;
+}
+.conteneur_form_text>input{
+    display: none;
+}
+svg{
+    display: none;
+}
+
+a{
+    font-size: 1.4rem;
+
+}
+.conteneur_form_connexion{
+    width: 20rem;
+    height: 5rem;
+    left: 12.2rem;
+}
+.conteneur_form_line{
+    justify-content: center;
+    gap:2.7rem;
+}
+.conteneur_form_line>span{
+    font-size: 1.6rem;
+    font-weight: 300;
+/* text-align: left; */
+}
+.conteneur_form_line>div{
+    width: 10rem;
+}
+.conteneur_form_icones{
+    gap: 8.2rem;
+}
+.conteneur_form_icones>div{
+    width: 5rem;
+    height:5rem ;
+}
+.conteneur_form_icones>div>img{
+    width: 3rem;
+    height:3rem ;
+}
